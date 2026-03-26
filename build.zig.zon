@@ -1,21 +1,13 @@
 .{
-    .name = .lua,
-    .version = "5.4.7",
-    .fingerprint = 0xd671372bcadcaace,
-
-    .minimum_zig_version = "0.14.0",
-
+    .name = .luaZig,
+    .version = "0.0.1",
+    .minimum_zig_version = "0.16.0-dev.2915+065c6e794",
+    .paths = .{ "LICENSE", "build.zig", "build.zig.zon", ".gitignore", "README.md" },
     .dependencies = .{
         .lua = .{
             .url = "https://www.lua.org/ftp/lua-5.4.7.tar.gz",
             .hash = "N-V-__8AAIMvFABt-Qcpk24RD10ldEN743D8Q2e19Er8x3dJ",
         },
     },
-
-    .paths = .{
-        "build.zig",
-        "build.zig.zon",
-        "LICENSE",
-        "README.md",
-    },
+    .fingerprint = 0x7a9e1e28a323f780,
 }
